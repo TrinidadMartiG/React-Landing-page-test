@@ -6,18 +6,27 @@ import Card from './components/card';
 
 function App() {
   return (
-    <div className="Container-fluid">
+    <>
       <Navbar />
-      <div className='Container m-4'>
+      <div className="container">
         <Heading />
-      </div>
-      <div className="row">
-        <div className='col'>
-          <Card />
+        <div className='row'>
+          <div className="col-md-3">
+            <Card />
+          </div>
+          <div className="col-md-3">
+            <Card />
+          </div>
+          <div className="col-md-3">
+            <Card />
+          </div>
+          <div className="col-md-3">
+            <Card />
+          </div>
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

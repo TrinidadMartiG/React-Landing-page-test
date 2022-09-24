@@ -5,7 +5,8 @@ export function Navbar() {
         <nav className="navbar navbar-light bg-secondary">
             <div className="container-fluid">
                 <a className="navbar-brand fs-2 text-white" href="/">Start bootstrap</a>
-                <div className="d-flex list-unstyled">
+                
+                <div className="d-flex list-unstyled" id='collapseNavBar'>
                     <li className="nav-item m-2 text-white">
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
